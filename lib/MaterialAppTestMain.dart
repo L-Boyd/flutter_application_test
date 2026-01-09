@@ -7,6 +7,23 @@ void main() {
     theme: ThemeData( // 应用程序的主题
       scaffoldBackgroundColor: Colors.blue,
     ),
-    home: Scaffold(), // 主题内容：脚手架
+     // 主题内容：脚手架
+    home: Scaffold(
+      appBar:AppBar(
+        centerTitle: true,
+        title: Text("头部区域")
+      ) ,
+      body: Container(
+        child: Center(
+          child: Text("中部区域"),
+        ),
+      ),
+      bottomNavigationBar: Container(
+        height: 80, // 设置高度，避免覆盖body
+        child: Center(
+          child: Text("底部区域"),
+        ),
+      ),
+    ),
   ));
 }

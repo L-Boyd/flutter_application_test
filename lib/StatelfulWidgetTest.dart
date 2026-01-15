@@ -4,6 +4,9 @@ void main() {
   runApp(MainPageStateful());
 }
 
+
+// 创建快捷键：statefulW
+
 // 第一个类，向外接收
 class MainPageStateful extends StatefulWidget {
   

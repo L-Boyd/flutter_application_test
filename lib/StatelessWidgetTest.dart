@@ -5,6 +5,8 @@ void main() {
   runApp(MainPageStateless());
 }
 
+// 创建快捷键：statelessW
+
 class MainPageStateless extends StatelessWidget {
 
   @override
